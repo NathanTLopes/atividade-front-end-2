@@ -1,0 +1,66 @@
+.header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+.wrapper {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color:rgb(128, 128, 128);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: inset 0px -1px 2px -1px rgb(255, 0, 0);
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 10px;
+}
+
+.title {
+    color: white;
+}
+.button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    height: 60px;
+    width: 60px;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.navOptions {
+    background-color:rgb(74, 91, 92);
+    padding: 1%;
+    box-shadow: inset 0px -5px 2px -1px rgb(255, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navItem {
+    list-style: none;
+}
+
+.navItem > * {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.navItem > *:hover {
+    color: rgb(211, 244, 247);
+}
